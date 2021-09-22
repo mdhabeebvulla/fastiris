@@ -21,10 +21,3 @@ The input is a JSON with the following fields:
 * petal_l
 * petal_w
 
-Corresponding values are the measurements in cm.
-
-Example request:
-
-```
-curl 'http://localhost:8080/iris/classify_iris' -X POST -H 'Content-Type: application/json' -d '{"sepal_l": 5, "sepal_w": 2, "petal_l": 3, "petal_w": 4}'
-```
